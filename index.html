@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CotiERP — Sistema de gestión para cotillones</title>
+  <meta name="description" content="Ventas, caja, inventario, compras, crédito y facturación legal para un cotillón en Paraguay. Funciona en su computadora, sin depender de internet." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="#">CotiERP</a>
+    <nav>
+      <a href="#que-hace">Qué hace</a>
+      <a href="#pantallas">Pantallas</a>
+      <a href="#estado">Estado</a>
+      <a class="btn small" href="https://github.com/joi-man/CotiERP-releases/releases/latest">Descargar</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Para cotillones y tiendas de fiesta</p>
+        <h1>Todo el negocio en un solo sistema, en su propia computadora</h1>
+        <p class="lead">Venda, cobre, facture, controle la caja y el inventario, y deje listos los libros de IVA para su contador. Sin depender de internet y con sus datos en su equipo.</p>
+        <p class="actions">
+          <a class="btn" href="https://github.com/joi-man/CotiERP-releases/releases/latest">Descargar para Windows</a>
+          <a class="btn ghost" href="#pantallas">Ver el sistema</a>
+        </p>
+        <p class="note">Versión de prueba con datos de demostración. Windows 10 u 11.</p>
+      </div>
+      <img class="hero-img" src="img/inicio.jpg" alt="Pantalla de inicio de CotiERP con el resumen del día" width="1400" height="810" />
+    </section>
+
+    <section id="que-hace" class="features">
+      <h2>Qué hace</h2>
+      <div class="grid">
+        <article><h3>Vender y cobrar</h3><p>Código de barras o búsqueda por nombre, vuelto automático, varios medios de pago y descuentos con tope y autorización del encargado.</p></article>
+        <article><h3>Facturación legal</h3><p>Factura, boleta, notas de crédito y de débito, con numeración sin saltos y una cadena de huellas que detecta cualquier alteración.</p></article>
+        <article><h3>Caja con arqueo ciego</h3><p>Turnos de caja: el cajero cuenta sin ver lo esperado y el encargado ve la diferencia por medio de pago.</p></article>
+        <article><h3>Inventario</h3><p>Existencias por depósito, kardex, lotes y vencimientos, combos, transferencias y ajustes con motivo.</p></article>
+        <article><h3>Compras y proveedores</h3><p>Compras nacionales o importadas, órdenes de compra recibidas en partes, costo promedio y cuentas a pagar.</p></article>
+        <article><h3>Crédito, pedidos y apartados</h3><p>Ventas a crédito en cuotas, cobros con recibo, pedidos con seña y apartados con fecha de evento.</p></article>
+        <article><h3>Libros de IVA</h3><p>Libro de ventas y de compras del mes, y el archivo para Marangatu, listos para exportar a Excel o CSV.</p></article>
+        <article><h3>Seguro y bajo control</h3><p>Usuarios con roles, auditoría, respaldos automáticos con copia a USB o nube, y derechos del cliente sobre sus datos.</p></article>
+      </div>
+    </section>
+
+    <section id="pantallas" class="shots">
+      <h2>Pantallas</h2>
+      <p class="sub">Capturas del sistema con datos de demostración (tres años de ventas, 5.000 productos, 2.000 clientes).</p>
+      <figure><img src="img/vender.jpg" alt="Cobro con dos medios de pago" loading="lazy" /><figcaption>Cobrar con dos medios de pago y vuelto automático</figcaption></figure>
+      <figure><img src="img/comprobantes.jpg" alt="Comprobantes emitidos" loading="lazy" /><figcaption>Comprobantes emitidos, con su cadena de huellas</figcaption></figure>
+      <figure><img src="img/caja.jpg" alt="Cierre de caja con arqueo ciego" loading="lazy" /><figcaption>Cierre de caja con arqueo ciego</figcaption></figure>
+      <figure><img src="img/existencias.jpg" alt="Existencias" loading="lazy" /><figcaption>Existencias por depósito</figcaption></figure>
+      <figure><img src="img/compra.jpg" alt="Registrar una compra" loading="lazy" /><figcaption>Registrar una compra: el proveedor se busca escribiendo</figcaption></figure>
+      <figure><img src="img/cobros.jpg" alt="Historial de cobros" loading="lazy" /><figcaption>Cobros con filtros y exportación a PDF, Excel o CSV</figcaption></figure>
+      <figure><img src="img/libros.jpg" alt="Libros de IVA" loading="lazy" /><figcaption>Libros de IVA y archivo para la DNIT</figcaption></figure>
+    </section>
+
+    <section id="estado" class="status">
+      <h2>En qué estado está</h2>
+      <p>CotiERP es un <strong>prototipo funcional</strong> que ya cubre el flujo completo de un cotillón. Lo que todavía falta, dicho con claridad:</p>
+      <ul>
+        <li><strong>Facturación electrónica (SIFEN):</strong> es el siguiente paso del desarrollo.</li>
+        <li><strong>Revisión del contador:</strong> los textos fiscales están marcados para su revisión.</li>
+        <li><strong>Una sola computadora por ahora;</strong> la conexión entre varias llegará más adelante.</li>
+        <li><strong>Prueba piloto</strong> en un local antes de la versión 1.0.</li>
+      </ul>
+    </section>
+
+    <section class="download">
+      <h2>Pruébelo</h2>
+      <p>Descargue el instalador, instálelo y abra el acceso directo <strong>CotiERP (demostración)</strong> para recorrerlo con datos de ejemplo.</p>
+      <p class="actions"><a class="btn" href="https://github.com/joi-man/CotiERP-releases/releases/latest">Descargar la última versión</a></p>
+      <p class="note">La primera vez, Windows puede mostrar «editor desconocido»: elija <em>Más información → Ejecutar de todos modos</em>. Todas las versiones están en la <a href="https://github.com/joi-man/CotiERP-releases/releases">lista de publicaciones</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>CotiERP · sistema de gestión para cotillones · Paraguay</p>
+  </footer>
+</body>
+</html>
