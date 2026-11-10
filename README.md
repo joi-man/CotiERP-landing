@@ -2,7 +2,7 @@
 
 Página estática (HTML + CSS, sin servidor ni dependencias) que presenta CotiERP y tiene el botón **Descargar**, que apunta a las publicaciones del repositorio `joi-man/CotiERP-releases`:
 
-- Última versión: `https://github.com/joi-man/CotiERP-releases/releases/latest`
+- Descarga directa del instalador (siempre la última versión): `https://github.com/joi-man/CotiERP-releases/releases/latest/download/CotiERP-Setup.exe`
 - Todas las versiones: `https://github.com/joi-man/CotiERP-releases/releases`
 
 ## Ver en su computadora
