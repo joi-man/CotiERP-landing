@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="CotiERP">
+  <rect width="256" height="256" rx="56" fill="#1a4f46"/>
+  <path d="M154.9 164.0A56 56 0 1 1 154.9 92.0" fill="none" stroke="#f4f1ec" stroke-width="28" stroke-linecap="round"/>
+  <circle cx="194" cy="80" r="9" fill="#f2b632"/>
+  <circle cx="214" cy="128" r="9" fill="#ef6f5e"/>
+  <circle cx="194" cy="176" r="9" fill="#7fd1c7"/>
+</svg>

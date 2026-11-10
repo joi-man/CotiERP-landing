@@ -26,7 +26,7 @@ h2 { font-size: 1.9rem; margin: 0 0 1rem; }
   background: rgba(244, 241, 236, 0.94); backdrop-filter: blur(6px);
   border-bottom: 1px solid var(--line);
 }
-.brand { font-weight: 800; font-size: 1.3rem; text-decoration: none; color: var(--green); }
+.brand { display: inline-flex; align-items: center; gap: 0.55rem; font-weight: 800; font-size: 1.3rem; text-decoration: none; color: var(--green); }
 .top nav { display: flex; align-items: center; gap: 1.4rem; }
 .top nav a { text-decoration: none; color: var(--ink); }
 
@@ -64,6 +64,7 @@ section { padding: 4rem clamp(1rem, 5vw, 4rem); max-width: 1200px; margin: 0 aut
 .status li { margin: 0.4rem 0; }
 
 .download { text-align: center; }
+.download .actions { justify-content: center; }
 footer { text-align: center; padding: 2rem 1rem 3rem; color: var(--muted); border-top: 1px solid var(--line); }
 
 @media (max-width: 860px) {
